@@ -1,0 +1,48 @@
+# Build directories
+/bin/
+/build/
+/out/
+/target/
+
+# IDE
+*.iml
+.idea/
+*.ipr
+*.iws
+*.class
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Eclipse
+*.classpath
+*.project
+.settings/
+
+# IntelliJ
+*.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Maven
+/logs/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Temporary
+*.tmp
+*.swp
