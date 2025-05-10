@@ -34,3 +34,47 @@ Tento jednoduchý Java projekt slouží jako konzolový budík. Uživatel zadá 
 ---
 
 ## 📁 Struktura projektu
+
+```
+Alarm-Clock/
+│
+├── AlarmClock71/
+│   ├── AlarmClock.java    // logika alarmu, přehrávání zvuku
+│   └── Main.java          // hlavní třída s uživatelským vstupem
+└── README.md
+```
+
+---
+
+## 🧰 Použité technologie
+
+- Java SE (`LocalTime`, `Scanner`, `Runnable`, `Thread`, `AudioSystem`)
+- OOP – objektově orientované programování
+- Základní práce se soubory a vlákny
+
+---
+
+## 📸 Ukázka výstupu
+
+```
+Enter alarm time (HH:mm:ss): 14:00:00
+Alarm set for: 14:00
+13:59:58
+13:59:59
+14:00:00
+Alarm ringing! Time to wake up!
+Press Enter to stop the alarm.
+```
+
+---
+
+## 📜 Licence
+
+MIT
+
+---
+
+## 🧑‍💻 Autor
+
+Martin Joee  
+[GitHub – MartinJoee](https://github.com/MartinJoee)
